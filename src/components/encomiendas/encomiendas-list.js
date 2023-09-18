@@ -24,7 +24,10 @@ const EncomiendasList = () => {
     };
 
     return (
+        <>
+        <h1>Encomiendas List</h1>
         <div className="table-wrapper">
+         
             <Table striped bordered hover>
                 <thead>
                     <tr>
@@ -41,6 +44,8 @@ const EncomiendasList = () => {
                 <tbody>{DataTable()}</tbody>
             </Table>
         </div>
+        
+        </>
     );
 };
 

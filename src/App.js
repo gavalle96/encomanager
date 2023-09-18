@@ -55,8 +55,8 @@ return (
 			<Col md={12}>
 			<div className="wrapper">
 				<Routes>
-				<Route exact path="/"
-					component={EncomiendasList} />
+				<Route path="/"
+					element={<EncomiendasList/>} />
 				{/* <Route path="/create-student"
 					component={CreateStudent} />
 				<Route path="/edit-encomienda/:id"
